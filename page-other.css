@@ -22,6 +22,10 @@
   top: 120px;
 }
 
+.other-card {
+  
+}
+
 div[class|=other-card] {
   width: 260px;
   height: 300px;
