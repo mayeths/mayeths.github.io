@@ -1,0 +1,33 @@
+@import url(page-cover.css);
+@import url(page-activity.css);
+@import url(page-music.css);
+@import url(page-video.css);
+@import url(page-other.css);
+
+body {
+  margin: 0;
+  min-width: 1534px;
+}
+
+*[class|="skeleton"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: cadetblue;
+  border-radius: 4px;
+}
+
+footer {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: pink;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

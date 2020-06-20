@@ -1,0 +1,43 @@
+.page-cover {
+  position: relative;
+  display: flex;
+  height: 750px;
+  width: 100%;
+}
+
+.page-cover > div {
+  position: absolute;
+}
+
+.page-cover-background {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(80deg, pink, pink 50%, white 50%, white);
+}
+
+.skeleton-live2d {
+  height: 500px;
+  width: 250px;
+  top: 15%;
+  left: 15%;
+}
+
+.desc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  top: 15%;
+  right: 15%;
+}
+
+.desc-name {
+  font-size: 48px;
+  color: pink;
+}
+
+.skeleton-desc {
+  height: 40px;
+  width: 250px;
+  margin-top: 15px;
+}

@@ -1,0 +1,26 @@
+.page-video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  color: cadetblue;
+}
+
+.page-video > * {
+  position: absolute;
+}
+
+.page-video-title {
+  top: 25px;
+}
+
+.video-placeholder-1 {
+  top: 240px;
+  font-size: 32px;
+}
+
+.video-placeholder-2 {
+  top: 240px;
+  font-size: 100px;
+}

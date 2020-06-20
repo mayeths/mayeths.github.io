@@ -1,0 +1,66 @@
+.page-activity {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  color: cadetblue;
+}
+
+.page-activity > * {
+  position: absolute;
+}
+
+.page-activity-title {
+  top: 25px;
+}
+
+.skeleton-live-stream {
+  width: 700px;
+  height: 500px;
+  top: 120px;
+  left: 70px;
+  border-radius: 8px;
+}
+
+.skeleton-btweet-activity {
+  width: 500px;
+  height: 300px;
+  top: 170px;
+  right: 155px;
+  border-radius: 8px;
+}
+
+.bilibili-space {
+  padding: 4px 10px;
+  top: 500px;
+  right: 500px;
+  border-radius: 10000000px;
+  background-color: aquamarine;
+}
+
+.famous-container {
+  top: 535px;
+  right: 450px;
+}
+
+.famous {
+
+}
+
+.fans-title {
+  padding: 4px 10px;
+  top: 500px;
+  right: 290px;
+  border-radius: 10000000px;
+  background-color: aquamarine;
+}
+
+.fans-group-container {
+  top: 535px;
+  right: 215px;
+}
+
+.fans-group {
+
+}

@@ -1,0 +1,52 @@
+.page-other {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  background-color: pink;
+  color: cadetblue;
+}
+
+.page-other > * {
+  position: absolute;
+}
+
+.page-other-title {
+  top: 25px;
+}
+
+.other-container {
+  position: absolute;
+  display: flex;
+  top: 120px;
+}
+
+div[class|=other-card] {
+  width: 260px;
+  height: 300px;
+  background-color: white;
+  border-radius: 8px;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div[class|=other-card]::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.other-card-1 {
+  margin-right: 30px;
+  background-image: url(http://i0.hdslb.com/bfs/album/2be907a54c14d366e8a96839924d602339c80465.jpg@518w_1e_1c.jpg);
+}
+
+.other-card-2 {
+  background-image: url(http://i0.hdslb.com/bfs/album/15f335d017dcfb0e5428e5dd705a905ea388601a.png);
+}
