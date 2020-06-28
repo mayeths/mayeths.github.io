@@ -20,6 +20,7 @@
   position: absolute;
   display: flex;
   top: 120px;
+  cursor: pointer;
 }
 
 .other-card {

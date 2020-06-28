@@ -21,6 +21,7 @@
   top: 120px;
   left: 70px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .skeleton-btweet-activity {
@@ -29,6 +30,7 @@
   top: 170px;
   right: 155px;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .bilibili-space {

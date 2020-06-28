@@ -41,3 +41,26 @@
   width: 250px;
   margin-top: 15px;
 }
+
+.skeleton-desc:nth-child(2) {
+  animation: 0.5s ease-out 0s 1 slide-in-from-left;
+}
+
+.skeleton-desc:nth-child(3) {
+  animation: 0.5s ease-out 0.25s 1 slide-in-from-left;
+}
+
+.skeleton-desc:nth-child(4) {
+  animation: 0.5s ease-out 0.5s 1 slide-in-from-left;
+}
+
+@keyframes slide-in-from-left {
+  0% {
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  height: 650px;
+  height: 690px;
   width: 100%;
   color: cadetblue;
 }
@@ -38,6 +38,12 @@
   width: 420px;
   border-radius: 6px;
   background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.video-card:hover {
+  transform: scale(1.02);
+  transition: 0.15s ease-in-out;
 }
 
 .video-image {
@@ -75,4 +81,25 @@
   top: 50px;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.15);
+}
+
+.video-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 42px;
+  top: 580px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.15s ease-in-out;
+  border: 1.5px solid cadetblue;
+  cursor: pointer;
+}
+
+.video-more:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.05);
+  transition: 0.15s ease-in-out;
 }
